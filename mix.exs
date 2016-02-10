@@ -28,7 +28,7 @@ defmodule Ejabberd.Mixfile do
                              :fast_tls, :stringprep, :fast_xml,
                              :stun, :fast_yaml, :ezlib, :iconv,
                              :esip, :jiffy, :p1_oauth2, :p1_xmlrpc, :eredis,
-                             :p1_mysql, :p1_pgsql, :sqlite3]]
+                             :p1_pgsql]]
   end
 
   defp erlc_options do
@@ -50,9 +50,7 @@ defmodule Ejabberd.Mixfile do
      {:jiffy, "~> 0.14.7"},
      {:p1_oauth2, "~> 0.6.1"},
      {:p1_xmlrpc, "~> 1.15"},
-     {:p1_mysql, "~> 1.0"},
      {:p1_pgsql, "~> 1.0"},
-     {:sqlite3, "~> 1.1"},
      {:ezlib, "~> 1.0"},
      {:iconv, "~> 1.0"},
      {:eredis, "~> 1.0"},
